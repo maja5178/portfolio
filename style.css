@@ -347,6 +347,7 @@ a {
 .link {
     flex-grow: 1;
     flex-basis: 200px;
+    font-family: 'Barlow', sans-serif;
 
     margin: 1rem;
     padding: 1px;
@@ -402,7 +403,7 @@ a {
 
 
     flex-grow: 1;
-    flex-basis: 500px;
+    flex-basis: 400px;
 }
 
 
@@ -486,19 +487,14 @@ a {
     flex-wrap: wrap-reverse;
 }
 
-#ux_bottom .col_wide {
-
-    flex-grow: 2;
-    flex-basis: 600px;
-
-}
-
-#ux_bottom .col_narrow {
+#ux_bottom .col {
+    margin: 1rem;
 
     flex-grow: 1;
-    flex-basis: 300px;
+    flex-basis: 400px;
 
 }
+
 
 /******* ux_bottom SLUT *******/
 
@@ -605,6 +601,8 @@ a {
     margin-left: 42%;
     position: relative;
     top: -4vw;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.2rem;
 
 }
 
