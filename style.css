@@ -368,6 +368,8 @@ a {
 
 }
 
+
+
 /*-------------------CLASS ANNIMATIONER SLUT-------------------*/
 
 
@@ -404,6 +406,10 @@ a {
 
     flex-grow: 1;
     flex-basis: 400px;
+}
+
+#web_top .image {
+    margin-top: 5rem;
 }
 
 
@@ -547,6 +553,22 @@ a {
 
     flex-grow: 1;
     flex-basis: 500px;
+
+}
+
+#ani_top .image {
+    margin-top: 5rem;
+}
+
+#ani_top .link {
+    background-color: #826882;
+    margin-left: 30%;
+
+
+}
+
+#ani_top .link:hover {
+    background-color: #665565;
 
 }
 
@@ -729,6 +751,36 @@ a {
 
 }
 
+#ani_bottom .image {
+    margin-top: 7rem;
+}
+
+#ani_bottom .sectionwrapper_img {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+#ani_bottom .col_img {
+    width: 10%;
+
+    position: relative;
+    top: -7vw;
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+
+#ani_bottom .col_img:hover {
+    transform: scale(1.35);
+    z-index: 1;
+}
+
+
 
 /******* ANI BOTTOM SLUT *******/
 
@@ -777,6 +829,10 @@ video {
     flex-basis: 500px;
 }
 
+#indhold_top .image {
+    margin-top: 6rem;
+}
+
 #indhold_bottom .cover_txt {
     background-color: #CEAA72
 }
@@ -792,6 +848,10 @@ video {
 
     flex-grow: 1;
     flex-basis: 500px;
+}
+
+#indhold_bottom .image {
+    margin-top: 6rem;
 }
 
 
@@ -882,6 +942,26 @@ video {
 
 @media screen and (max-width:600px) {
 
+    #web_top .image {
+        margin-top: 2rem;
+    }
+
+    #ani_top .image {
+        margin-top: 2rem;
+    }
+
+    #ani_bottom .image {
+        margin-top: 2rem;
+    }
+
+    #indhold_top .image {
+        margin-top: 2rem;
+    }
+
+    #indhold_bottom .image {
+        margin-top: 2rem;
+    }
+
     h1 {
         font-size: 2rem;
     }
@@ -953,6 +1033,11 @@ video {
         width: 45vw;
     }
 
+    #ani_top .link {
+        margin-left: 20%;
+        width: 50vw;
+    }
+
     #ani_bottom .link {
         margin-left: 20%;
         width: 50vw;
@@ -982,6 +1067,31 @@ video {
     }
 
 
+
+    /*  slider images til mobilversion  */
+    .slide1 {
+        background-image: url(splash_billeder/mobile_forside.svg)
+    }
+
+    .slide2 {
+        background-image: url(splash_billeder/mobile_web_1.svg)
+    }
+
+    .slide3 {
+        background-image: url(splash_billeder/mobile_ux.svg)
+    }
+
+    .slide4 {
+        background-image: url(splash_billeder/mobile_animation.svg)
+    }
+
+    .slide5 {
+        background-image: url(splash_billeder/mobile_indhold.svg)
+    }
+
+    .slide6 {
+        background-image: url(splash_billeder/mobile_mig.svg)
+    }
 }
 
 .show {
