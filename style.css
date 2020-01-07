@@ -983,39 +983,6 @@ video {
 /*--------------------OM SLUT--------------------*/
 
 
-
-
-
-
-
-
-/*#pil_1 {
-    top: 85vw;
-    left: 2vw;
-    height: 34vw;
-    width: 12vw;
-    background-image: url(splash_billeder/pil.svg);
-    background-size: cover;
-    position: absolute;
-
-}
-
-#pil_2 {
-    top: 85vw;
-    right: 2vw;
-    height: 34vw;
-    width: 12vw;
-    background-image: url(splash_billeder/pil.svg);
-    background-size: cover;
-    position: absolute;
-    transform: rotate(180deg)
-}*/
-
-
-
-
-
-
 @media screen and (max-width:600px) {
 
     /*
