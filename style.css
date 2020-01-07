@@ -340,9 +340,8 @@ a {
 /*-------------------CLASS ANNIMATIONER-------------------*/
 
 .img:hover {
-    filter: brightness(50%);
-    -webkit-filter: brightness(30%);
-    -webkit-transform: scale(1.02);
+    filter: brightness(60%);
+    transform: scale(1.02);
 }
 
 .hidden_footer {
@@ -454,8 +453,8 @@ a {
 }
 
 #web_top .col_2 {
-    flex-grow: ;
-    flex-basis: 400px;
+    flex-grow: 1;
+    flex-basis: 300px;
     margin-left: 2rem;
     margin-right: 2rem;
     width: 5%;
@@ -766,7 +765,7 @@ a {
     }
 
     to {
-        opacity: 100;
+        opacity: 100%;
     }
 }
 
