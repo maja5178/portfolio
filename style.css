@@ -454,7 +454,7 @@ a {
     flex-wrap: wrap;
     margin-left: 4rem;
     margin-right: 4rem;
-    margin-top: -2rem;
+    margin-top: 1rem;
 }
 
 #web_top .col_2 {
@@ -831,6 +831,7 @@ a {
     flex-wrap: wrap-reverse;
     margin-left: 2rem;
     margin-right: 2rem;
+    margin-top: 6rem;
 }
 
 #ani_bottom .col_img {
@@ -1017,17 +1018,16 @@ video {
 
 @media screen and (max-width:600px) {
 
+    /*
     #web_top .image {
         margin-top: 2rem;
     }
 
-    #ani_top .image {
-        margin-top: 2rem;
-    }
 
     #ani_bottom .image {
         margin-top: 2rem;
     }
+
 
     #indhold_top .image {
         margin-top: 2rem;
@@ -1035,6 +1035,20 @@ video {
 
     #indhold_bottom .image {
         margin-top: 2rem;
+    }
+*/
+
+
+    #ani_top .image {
+        margin-top: 7rem;
+    }
+
+    #ux_dokumentation .sectionwrapper {
+        margin-top: 1rem;
+    }
+
+    #om .sectionwrapper {
+        margin-top: 1rem;
     }
 
     h1 {
@@ -1077,11 +1091,11 @@ video {
 
     .cover_txt {
         top: -2vw;
-
         margin-left: 20vw;
         margin-right: 20vw;
         padding-top: 10px;
         background-color: aquamarine;
+
     }
 
 
@@ -1127,6 +1141,16 @@ video {
         width: 50vw;
     }
 
+    #ani_top h1 {
+        font-size: 1.5rem;
+    }
+
+    #ani_bottom h1 {
+        font-size: 1.5rem;
+    }
+
+
+
     .col_wide {
         margin-left: 2rem;
         margin-right: 2rem;
@@ -1154,7 +1178,7 @@ video {
         font-size: 1rem;
         text-align: center;
 
-        top: 32vw;
+        top: 97vw;
         right: 32vw;
 
     }
