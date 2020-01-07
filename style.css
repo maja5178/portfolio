@@ -54,6 +54,21 @@ h6 {
     padding: inherit;
 }
 
+footer {
+    margin-top: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+
+footer p {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
 
 
 /* generelle indstillinger SLUT*/
@@ -328,6 +343,10 @@ a {
     filter: brightness(50%);
     -webkit-filter: brightness(30%);
     -webkit-transform: scale(1.02);
+}
+
+.hidden_footer {
+    display: none;
 }
 
 .dont_show {
