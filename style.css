@@ -24,8 +24,11 @@ h1 {
     font-family: 'Amatic SC', cursive;
     letter-spacing: 0.3rem;
     font-size: 3rem;
-    padding-bottom: 1vw;
-    padding-top: 4vw;
+
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 h2 {
@@ -84,12 +87,15 @@ footer p {
 
 .cover_txt {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
     text-align: center;
-    top: -10vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    top: -6.5vw;
     color: white;
-
-    margin-left: 35vw;
-    margin-right: 35vw;
 
 }
 
@@ -353,8 +359,7 @@ a {
 }
 
 .sectionwrapper {
-    position: relative;
-    top: -9vw;
+    margin-top: -6rem;
 }
 
 .wrapper {
@@ -381,7 +386,6 @@ a {
 }
 
 .link:hover {
-
     padding: 3px;
 
 }
@@ -406,12 +410,13 @@ a {
 }
 
 #web_top .img_txt {
+    position: absolute;
     font-size: 1.2rem;
     color: white;
     background-color: #999B54;
     position: absolute;
-    top: 19vw;
-    right: 15.5vw;
+    top: 44vw;
+    right: 21vw;
 
 }
 
@@ -468,6 +473,10 @@ a {
 /*------------------------------UX------------------------------*/
 /******* ux_top *******/
 
+#ux_top .cover_txt {
+    background-color: #E0A2A8
+}
+
 #ux_top {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -478,9 +487,7 @@ a {
 #ux_top .sectionwrapper {
     margin-left: 5rem;
     margin-right: 5rem;
-
-    position: relative;
-    top: -9vw;
+    margin-top: -4rem;
 
     display: flex;
     flex-wrap: wrap-reverse;
@@ -500,9 +507,7 @@ a {
 
 }
 
-#ux_top .cover_txt {
-    background-color: #E0A2A8
-}
+
 
 
 #ux_top .slide_ux img {
@@ -540,13 +545,15 @@ a {
     margin-left: 5rem;
     margin-right: 5rem;
 
-
     display: flex;
     flex-wrap: wrap-reverse;
 }
 
 #ux_bottom .col {
-    margin: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+
 
     flex-grow: 1;
     flex-basis: 400px;
@@ -581,6 +588,7 @@ a {
 #ux_dokumentation .col {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
+    margin-top: 1rem;
 
     flex-grow: 1;
     flex-basis: 300px;
@@ -883,6 +891,8 @@ video {
     margin: 2rem;
     display: flex;
     flex-wrap: wrap-reverse;
+
+    margin-top: -4rem;
 }
 
 #indhold_top .col {
@@ -904,6 +914,8 @@ video {
     margin: 2rem;
     display: flex;
     flex-wrap: wrap-reverse;
+
+    margin-top: -4rem;
 }
 
 #indhold_bottom .col {
